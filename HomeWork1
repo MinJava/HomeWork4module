@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        Counter counter = new Counter();
+
+        Thread threadFirst = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.Addition();
+            } });
+
+        Thread threadSecond = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.Addition();
+            } });
+
+        threadFirst.start();
+        threadSecond.start();
+
+        threadFirst.join();
+        threadSecond.join();
+        System.out.println("Count:" + counter.getValue());
+    }
+}
+
+public class Counter {
+    private int Int;
+
+    public void Addition() {
+        Int++;
+    }
+
+    public int getValue() {
+        return Int;
+    }
+}
