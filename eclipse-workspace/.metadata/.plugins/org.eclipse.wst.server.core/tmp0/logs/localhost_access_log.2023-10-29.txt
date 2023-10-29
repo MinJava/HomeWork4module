@@ -10,3 +10,8 @@
 0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:35:25 +0600] "GET /vebinarcrud/WEB-INF/views/notes/new.html HTTP/1.1" 404 703
 0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:36:24 +0600] "GET /vebinarcrud/ HTTP/1.1" 200 84
 0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:36:26 +0600] "GET /vebinarcrud/notes HTTP/1.1" 404 703
+127.0.0.1 - - [29/Oct/2023:23:41:37 +0600] "GET / HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:42:04 +0600] "GET /vebinarcrud/index.jsp HTTP/1.1" 200 84
+0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:42:06 +0600] "GET /vebinarcrud/notes HTTP/1.1" 404 703
+0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:43:55 +0600] "GET /vebinarcrud/ HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [29/Oct/2023:23:44:55 +0600] "GET /vebinarcrud/WEB-INF/web.xml HTTP/1.1" 404 703
